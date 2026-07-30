@@ -1,0 +1,78 @@
+:root {
+  --fuenteArial: Arial;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #7b7878;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------------------- Login-------------------- */
+
+#container {
+  width: 300px;
+  /* height: 440px; */
+  padding: 10px;
+  background-color: rgb(243, 243, 243);
+}
+
+#container h3 {
+  font-size: 30px;
+  padding: 10px 0 10px 0;
+  background-color: rgb(87, 87, 240);
+  color: white;
+  text-align: center;
+  font-family: var(--fuenteArial);
+}
+
+#container img {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+#container input {
+  width: 80%;
+  margin: auto;
+  display: block;
+  font-family: var(--fuenteArial);
+}
+
+#container input[type="text"],
+input[type="password"] {
+  height: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#container p {
+  font-size: 16px;
+  opacity: 1;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#container input[type="submit"] {
+  margin-top: 10px;
+  font-size: 25px;
+  background-color: rgb(9, 195, 83);
+}
+
+#container input[type="submit"]:hover {
+  background-color: rgb(35, 210, 105);
+}
+
+img {
+  width: 100px;
+}
+
+/* ------------------------------------------------ */

@@ -1,0 +1,17 @@
+USE tienda_virtual_1;
+
+DELETE FROM cliente;
+DELETE FROM detallefactura;
+DELETE FROM detalle_temp;
+DELETE FROM entradas;
+DELETE FROM factura;
+DELETE FROM producto;
+DELETE FROM proveedor;
+
+ALTER TABLE cliente AUTO_INCREMENT = 1;
+ALTER TABLE detallefactura AUTO_INCREMENT = 1;
+ALTER TABLE detalle_temp AUTO_INCREMENT = 1;
+ALTER TABLE entradas AUTO_INCREMENT = 1;
+ALTER TABLE factura AUTO_INCREMENT = 1;
+ALTER TABLE producto AUTO_INCREMENT = 1;
+ALTER TABLE proveedor AUTO_INCREMENT = 1;

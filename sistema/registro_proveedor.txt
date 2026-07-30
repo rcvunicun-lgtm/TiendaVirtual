@@ -1,0 +1,35 @@
+            <select name="proveedor" id="proveedor">
+
+                <?php
+                    if($result_proveedor > 0)
+                    {
+                        while($proveedor = mysqli_fetch_array($query_proveedor))
+                        {
+                            echo('<option value="'.$proveedor["codproveedor"].'">'.$proveedor["proveedor"].'</option>');
+                        }
+                    }
+        
+                ?>
+
+            </select>
+
+
+            ---------------------------------------------------------------------------------------------------------------
+
+
+            <select name="proveedor" id="proveedor">
+
+                <?php
+                    if($result_proveedor > 0)
+                    {
+                        while($proveedor = mysqli_fetch_array($query_proveedor))
+                        {
+                ?>
+
+                    <option value="<?php echo($proveedor["codproveedor"]);?>"><?php echo($proveedor["proveedor"]);?></option>
+
+                <?php
+                        }
+                    }
+                ?>
+             </select>
